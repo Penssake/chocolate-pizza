@@ -36,6 +36,14 @@ header {
   margin-top:
 }
 
+#pic {
+  float: left;
+}
+
+#bio {
+    float: right;
+}
+
 .indent {
   margin-left: 20px;
 
@@ -115,8 +123,9 @@ header {
 }
 
 hr {
-  height: 10px;
+  height: 15px;
   background-color: #DDDDDD;
+  border: 0px;
 }
 
 #article-text {
@@ -128,6 +137,7 @@ hr {
   height: 305px;
   background-image: url("lab-assets/list-bg.png");
   font-family: cursive;
+  margin-bottom: 35px;
 }
 
 
@@ -135,12 +145,15 @@ hr {
 #list-left {
   float: left;
   list-style: none;
-
+  padding: 25px;
+  padding-left: 75px;
 }
 
 #list-right {
   float: right;
   list-style: none;
+  padding: 25px;
+  padding-right: 75px;
 }
 
 .check-box {
@@ -149,4 +162,83 @@ hr {
 
 .lined-out {
   text-decoration: line-through;
+}
+
+footer {
+  width: 100%;
+}
+
+#pic-and-bio {
+  display: inline-block;
+  float: left;
+  width: 675px;
+  padding-right: 50px;
+}
+
+#bio-and-share-bar {
+  display: inline-block;
+  width: 100%;
+}
+
+#name p {
+  margin: 0;
+  font-weight: bold;
+}
+
+#about p {
+  margin-top: 5px;
+}
+
+#bio {
+  width: 575px;
+  padding-right: 25px;
+}
+
+#share {
+  color: white;
+  background-color: #BC705A;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  border: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  float: right;
+}
+#share-button {
+  float: right;
+  margin-top: 15px;
+}
+
+#line-and-icon {
+  display: inline-block;
+  width: 100%;
+}
+
+#bottom-line {
+  height: 1px;
+  background-color: #dddddd;
+  border: 0px;
+}
+
+#line-left, #line-right {
+  width: 425px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+#small-logo {
+  display: inline-block;
+}
+
+#copyright {
+  margin: 0 auto;
+  margin-top: 15px;
+  color: #bbbbbb;
+  text-align: center;
+}
+
+#copyright p {
+  margin: 0px;
 }
