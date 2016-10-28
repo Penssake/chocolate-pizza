@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <!-- <link href="https://fonts.googleapis.com/css?family=Anton|Yellowtail" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Anton|Yellowtail" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" >
   <title>Delicious</title>
 </head>
 <body>
@@ -10,7 +11,7 @@
     <section id="logo-and-title">
       <section id="logo">
         <img src="lab-assets/logo.png" name="logo" alt="logo" />
-      </seciton>
+      </section>
       <section id="title-and-subtitle">
         <section id="title">
           <p>Delicious</p>
@@ -21,7 +22,7 @@
       </section>
     </section>
     <section id="social-icons">
-      <ul>
+      <ul id="social-list">
         <li><a href="http://www.facebook.com"><img src="lab-assets/fb-icon.png" name="fb-icon" alt="Facebook icon" /></a></li>
         <li><a href="http://www.twitter.com"><img src="lab-assets/twit-icon.png" name="twit-icon" alt="Twitter icon" /></a></li>
         <li><a href="http://www.google.com"><img src="lab-assets/gp-icon.png" name="gp-icon" alt="Google+ icon" /></a></li>
@@ -33,8 +34,8 @@
         <li><a href="."><img src="lab-assets/mail-icon.png" name="main-icon" alt="Email icon" /></a></li>
       </ul>
     </section>
-    <hr />
   </header>
+  <hr />
   <main>
     <banner>
       <section id="article-topper">
@@ -47,11 +48,8 @@
           </section>
         </section>
         <section id="print-button">
-          <section id="print-icon">
-            <img src="lab-assets/print-icon.png" name="print-icon" alt="Print icon" />
-          </section>
-          <section id="print-text">
-            <p>Print</p>
+            <img id="print-icon" src="lab-assets/print-icon.png" name="print-icon" alt="Print icon" />
+            <p id="print-text">Print</p>
           </section>
         </section>
       </section>
@@ -61,29 +59,29 @@
     </banner>
     <article>
       <section id="article-text">
-        <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
-        <p>Ice cream: In a small pot over medium heat, combine milk and granulated sugar until sugar is completely dissovled and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</p>
-        <p>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a Pyrex dish or glass Tupperware. Freeze for at least two hours before serving.</p>
+        <p><span class="indent">For</span> the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
+        <p><span class="indent">Ice</span> cream: In a small pot over medium heat, combine milk and granulated sugar until sugar is completely dissovled and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</p>
+        <p><span class="indent">Using</span> an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding mascarpone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a Pyrex dish or glass Tupperware. Freeze for at least two hours before serving.</p>
       </section>
       <section id="recipe-card">
-        <section id="list-left">
-          <ul>
-            <li>1 1/2 cups milk</li>
-            <li>1/2 cup mascarpone</li>
-            <li>1/2 tsp pink salt</li>
-            <li>1 lb Black Mission Figs</li>
-            <li>1/2 cup brown sugar</li>
-            <li>2-4 tbsp water</li>
+        <section>
+          <ul id="list-left">
+            <li><span class="check-box">&#9633</span> 1 1/2 cups milk</li>
+            <li><span class="check-box">&#9633</span> 1/2 cup mascarpone</li>
+            <li><span class="check-box">&#9633</span> 1/2 tsp pink salt</li>
+            <li><span class="check-box">&#9633</span> 1 lb Black Mission Figs</li>
+            <li><span class="check-box">&#9633</span> 1/2 cup brown sugar</li>
+            <li><span class="check-box">&#9633</span> 2-4 tbsp water</li>
           </ul>
         </section>
-        <section id="list-right">
-          <ul>
-            <li>1 1/2 cups heavy cream</li>
-            <li class="lined-out"><span>1/3 granulated sugar</span></li>
-            <li class="lined-out"><span>1/3 granulated sugar</span></li>
-            <li>1 lemon, juiced</li>
-            <li>2 tbsp butter</li>
-            <li>1 cup honey roasted pecans, roughly chopped</li>
+        <section>
+          <ul id="list-right">
+            <li><span class="check-box">&#9633</span>1 1/2 cups heavy cream</li>
+            <li class="lined-out"><span class="check-box">&#9633</span> 1/3 granulated sugar</li>
+            <li class="lined-out"><span class="check-box">&#9633</span> 1/3 granulated sugar</li>
+            <li><span class="check-box">&#9633</span> 1 lemon, juiced</li>
+            <li><span class="check-box">&#9633</span> 2 tbsp butter</li>
+            <li><span class="check-box">&#9633</span> 1 cup honey roasted pecans, roughly chopped</li>
           </ul>
         </section>
       </section>
@@ -114,7 +112,7 @@
         <section id="line-left">
         </section>
         <section id="small-logo">
-          <img src="lab-assets/small-logo.png" name="small-logo" alt="Small logo" />          
+          <img src="lab-assets/small-logo.png" name="small-logo" alt="Small logo" />
         </section>
         <section id="line-right">
       </section>
